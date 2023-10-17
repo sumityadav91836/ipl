@@ -1,0 +1,67 @@
+.latest-match-card {
+  height: auto;
+  width: 100%;
+  background-color: #1e293b;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.latest-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.team-name {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: bree serif;
+  align-self: flex-start;
+}
+
+.date {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: bree serif;
+  margin-bottom: 8px;
+}
+
+.other-details {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: bree serif;
+  color: #fff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.competing-team-logo {
+  height: 140px;
+  width: 130px;
+}
+
+.other-detail {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-family: bree serif;
+  font-weight: 300;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.align-item {
+  align-self: flex-end;
+}
+
+.match-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

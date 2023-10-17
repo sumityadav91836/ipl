@@ -1,0 +1,42 @@
+.match-card {
+  height: auto;
+  width: 270px;
+  border-radius: 15px;
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 15px 25px;
+}
+
+.competing-team-name {
+  color: #fff;
+  font-family: bree serif;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+}
+
+.result {
+  color: #fff;
+  font-family: bree serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.match-status {
+  font-family: bree serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.won-status {
+  color: #18ed66;
+}
+
+.loss-status {
+  color: #e31a1a;
+}
